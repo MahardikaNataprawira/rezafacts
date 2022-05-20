@@ -1,0 +1,29 @@
+{
+  "name": "bucin-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/server.js",
+    "migrate": "node-pg-migrate"
+  },
+  "author": "Mahardika Nataprawira & Rou Fleur",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2",
+    "dotenv": "^16.0.1",
+    "hapi-mongodb": "^10.0.3",
+    "nanoid": "^3.3.4",
+    "node-pg-migrate": "^6.2.1",
+    "nodemon": "^2.0.16",
+    "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.0",
+    "eslint-plugin-promise": "^6.0.0"
+  }
+}
